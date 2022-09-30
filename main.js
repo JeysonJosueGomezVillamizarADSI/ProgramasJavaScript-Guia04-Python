@@ -1,4 +1,11 @@
-let numero = Number(prompt("Ingrese el numero que desea multiplicar : "));
-for (let i = 0; i < 11; i++) {
-    document.write(numero + "X" + i + "=" + (numero * i) + "<br>");
+let num=3;
+
+for(let i=0;i<=24;i++){
+    if(i%2==0){
+        num+=4
+        alert(num)
+    }else{
+        num-=2
+        alert(num)
+    }
 }
